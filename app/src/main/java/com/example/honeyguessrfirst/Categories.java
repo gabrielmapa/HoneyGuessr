@@ -9,23 +9,40 @@ import android.widget.Button;
 
 public class Categories extends AppCompatActivity {
 
-    private Button ArtsBtn;
+    public Button ArtsBtn;
+    public Button HistoryBtn;
+    public Button GeneralBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_categories);
 
-        ArtsBtn = findViewById(R.id.artsculture_button);
+        ArtsBtn = (Button) findViewById(R.id.artsculture_button);
         ArtsBtn.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                Intent intenter = new Intent(Categories.this,
-                        QuestionNumber1.class);
-                startActivity(intenter);
-            }
+            public void onClick(View view) { openArtsQuestion1(); }
         });
 
-    }
+        HistoryBtn = (Button) findViewById(R.id.history_button);
+        HistoryBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) { openHistoryQuestion1(); }
+        });
 
+        GeneralBtn = (Button) findViewById(R.id.generalknowledge_button);
+        GeneralBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) { openGeneralQuestion1(); }
+        });
+    }
+    public void openArtsQuestion1() {
+        startActivity(new Intent(getApplicationContext(), ArtsQ1.class));
+    }
+    public void openHistoryQuestion1() {
+        startActivity(new Intent(getApplicationContext(), HistoryQ1.class));
+    }
+    public void openGeneralQuestion1() {
+        startActivity(new Intent(getApplicationContext(), GeneralKnowledgeQ1.class));
+    }
 }

@@ -11,7 +11,31 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity
-            android:name=".QuestionNumber1"
+            android:name=".GeneralKnowledgeQ3"
+            android:exported="false" />
+        <activity
+            android:name=".GeneralKnowledgeQ2"
+            android:exported="false" />
+        <activity
+            android:name=".GeneralKnowledgeQ1"
+            android:exported="false" />
+        <activity
+            android:name=".HistoryQ3"
+            android:exported="false" />
+        <activity
+            android:name=".HistoryQ2"
+            android:exported="false" />
+        <activity
+            android:name=".HistoryQ1"
+            android:exported="false" />
+        <activity
+            android:name=".ArtsQ3"
+            android:exported="false" />
+        <activity
+            android:name=".ArtsQ2"
+            android:exported="false" />
+        <activity
+            android:name=".ArtsQ1"
             android:exported="false" />
         <activity
             android:name=".Categories"
