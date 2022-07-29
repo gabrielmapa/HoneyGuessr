@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_8"
+    tools:context=".TriviaforArts">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="false"
+        android:layout_marginStart="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:text="KADAGDAGANG KAALAMAN"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="22dp" />
+
+            <EditText
+                android:id="@+id/alam1"
+                android:layout_width="306dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/text_background"
+                android:clickable="false"
+                android:focusable="false"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Sa larangan ng Kasaysayan, ALAM MO BA?"
+                android:textColor="#000000"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="372dp"
+                android:layout_height="207dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/text_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/trivia1"
+                    android:layout_width="327dp"
+                    android:layout_height="208dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:lineSpacingExtra="6dp"
+                    android:text="Noong 1565, sa misyon na sakupin ang Manila sa pangunguna ni Miguel Lopez de Legazpi ay sinakop ang bansang Pilipinas ng mga Espanyol sa loob ng 333 taon."
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="372dp"
+                android:layout_height="305dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/text_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/trivia2"
+                    android:layout_width="350dp"
+                    android:layout_height="257dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:lineSpacingExtra="6dp"
+                    android:text="Sumisimbolo ang walong (8) sinag ng araw sa pambansang watawat ng Pilipinas sa mga probinsya na lumaban sa mga Espanyol sa kanilang pananakop. Ito ay ang Maynila, Cavite, Bulacan, Pampanga, Nueva Ecija, Laguna at Batangas."
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="372dp"
+                android:layout_height="312dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/text_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/trivia3"
+                    android:layout_width="345dp"
+                    android:layout_height="332dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:lineSpacingExtra="6dp"
+                    android:text="Si Teofilo Yldefonso ang unang nagkamit ng Olympic medal para sa Pilipinas. Siya ay lumaban sa 200m breaststroke noong 1928 at nanalo ng tansong medalya. Muli siyang nagkamit ng isa pang bronze sa parehas na kategorya noong 1932 sa Olympics na ginanap sa Los Angeles, USA."
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/back"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:background="@drawable/text_background"
+        android:fontFamily="@font/lazy_dog"
+        android:text="Back"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.600" />
+
+</RelativeLayout>

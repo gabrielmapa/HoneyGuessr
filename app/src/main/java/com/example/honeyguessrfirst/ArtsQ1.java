@@ -19,9 +19,9 @@ import java.util.TimerTask;
 public class ArtsQ1 extends AppCompatActivity {
 
     private int presCounter = 0;
-    private int maxPresCounter =1;
-    private String[] keys = {"Dollar", "Peso", "Yen", "Won"};
-    private String textAnswer = "Peso";
+    private int maxPresCounter = 1;
+    public String[] keys = {"Dollar", "Peso", "Yen", "Won"};
+    public String textAnswer = "Peso";
     TextView textScreen, textQuestion, textTitle;
     Timer timer;
 
@@ -67,7 +67,7 @@ public class ArtsQ1 extends AppCompatActivity {
         final TextView textView = new TextView(this);
 
         textView.setLayoutParams(linearLayoutParams);
-        textView.setBackground(this.getResources().getDrawable(R.drawable.backgroundquestions));
+        textView.setBackground(this.getResources().getDrawable(R.drawable.backgroundq));
         textView.setTextColor(this.getResources().getColor(R.color.black));
         textView.setGravity(Gravity.CENTER);
         textView.setText(text);

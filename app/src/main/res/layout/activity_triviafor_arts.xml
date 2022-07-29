@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_8"
+    tools:context=".TriviaforArts">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="false"
+        android:layout_marginStart="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:text="KADAGDAGANG KAALAMAN"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="22dp" />
+
+            <EditText
+                android:id="@+id/alam1"
+                android:layout_width="306dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/text_background"
+                android:clickable="false"
+                android:focusable="false"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Sa larangan ng Sining at Kultura, ALAM MO BA?"
+                android:textColor="#000000"
+                android:textSize="19dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="372dp"
+                android:layout_height="268dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/text_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/trivia1"
+                    android:layout_width="327dp"
+                    android:layout_height="208dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:lineSpacingExtra="6dp"
+                    android:text="Bago ang taong 1967, ang mga perang papel at tanso sa Pilipinas ay tinawag ng “Peso” mula sa lenggwaheng Ingles. Kinalaunan, nang magamit na ito ng mga Pilipino ay naging “Piso” ang bigkas dito."
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="372dp"
+                android:layout_height="387dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/text_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/trivia2"
+                    android:layout_width="350dp"
+                    android:layout_height="400dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:lineSpacingExtra="6dp"
+                    android:text="Ang “Batok” ay pinaniniwalaang tradisyon na isang libong taon nang isinasagawa na nagmula sa tribo ng mga mandirigmang Kalinga. Ito ay upang ipakita ang kanilang katapangan at nagsisilbi rin itong representasyon ng mga napagtagumpayan nilang digmaan.
+    Pinaniniwalaang si Apo Whang-Od ay ang huling natitirang Mambabatok mula sa tribo ng Kalinga."
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="372dp"
+                android:layout_height="499dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/text_background"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/trivia3"
+                    android:layout_width="345dp"
+                    android:layout_height="450dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:lineSpacingExtra="6dp"
+                    android:text="Ipinagdiriwang sa Bacolod ang Pista ng MassKara. Ang salitang “Mass” ay nangangahulugang “madami”, at ang “Kara” naman ay nangangahulugang “muka”. Kaya’t ang literal na salin sa MassKara ay “maraming muka”.
+    Ang pistang ito ay upang gunitain ang panahon ng tag-gutom at kahirapan noong 1980 sa Bacolod. Noong panahon na iyon din naganap ang paglubog ng isang ferry o sasakyang pantubig na nagdulot ng pagkamatay ng mga sakay nito. Para mapagaan ang sitwasyon sa kanilang lungsod ay isinagawa nila ang pistang ito."
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/back"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:background="@drawable/text_background"
+        android:fontFamily="@font/lazy_dog"
+        android:text="Back"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.600" />
+
+</RelativeLayout>

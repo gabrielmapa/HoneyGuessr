@@ -67,7 +67,7 @@ public class HistoryQ3 extends AppCompatActivity {
         final TextView textView = new TextView(this);
 
         textView.setLayoutParams(linearLayoutParams);
-        textView.setBackground(this.getResources().getDrawable(R.drawable.backgroundquestions));
+        textView.setBackground(this.getResources().getDrawable(R.drawable.backgroundq));
         textView.setTextColor(this.getResources().getColor(R.color.black));
         textView.setGravity(Gravity.CENTER);
         textView.setText(text);
@@ -113,7 +113,7 @@ public class HistoryQ3 extends AppCompatActivity {
         if(editText.getText().toString().equals(textAnswer)) {
             Toast.makeText(HistoryQ3.this, "Tama! Ang sagot ay Teofilo Yldefonso!", Toast.LENGTH_LONG).show();
 
-            Intent b3 = new Intent(HistoryQ3.this, Categories.class);
+            Intent b3 = new Intent(HistoryQ3.this, TriviaforArts2.class);
             startActivity(b3);
 
         } else {

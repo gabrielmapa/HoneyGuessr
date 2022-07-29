@@ -68,7 +68,7 @@ public class ArtsQ2 extends AppCompatActivity {
         final TextView textView = new TextView(this);
 
         textView.setLayoutParams(linearLayoutParams);
-        textView.setBackground(this.getResources().getDrawable(R.drawable.backgroundquestions));
+        textView.setBackground(this.getResources().getDrawable(R.drawable.backgroundq));
         textView.setTextColor(this.getResources().getColor(R.color.black));
         textView.setGravity(Gravity.CENTER);
         textView.setText(text);

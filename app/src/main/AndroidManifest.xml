@@ -11,6 +11,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity
+            android:name=".AboutBtn"
+            android:exported="false" />
+        <activity
+            android:name=".TriviaforArts3"
+            android:exported="false" />
+        <activity
+            android:name=".TriviaforArts2"
+            android:exported="false" />
+        <activity
+            android:name=".TriviaforArts"
+            android:exported="false" />
+        <activity
+            android:name=".Instructions"
+            android:exported="false" />
+        <activity
             android:name=".GeneralKnowledgeQ3"
             android:exported="false" />
         <activity

@@ -9,11 +9,11 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
-import java.util.Objects;
-
 public class MainActivity extends AppCompatActivity {
 
     public Button startBtn;
+    public Button aboutBtn;
+    public Button instructBtn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,9 +33,29 @@ public class MainActivity extends AppCompatActivity {
                 openCategories();
             }
         });
+
+        aboutBtn = (Button) findViewById(R.id.about_button);
+        aboutBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) { openAboutbutton(); }
+        });
+
+        instructBtn = (Button) findViewById(R.id.instructions_btn);
+        instructBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) { openInstructionbutton(); }
+        });
     }
     public void openCategories() {
         Intent intent = new Intent(this, Categories.class);
         startActivity(intent);
+    }
+    public void openAboutbutton() {
+        Intent about = new Intent(this, AboutBtn.class);
+        startActivity(about);
+    }
+    public void openInstructionbutton() {
+        Intent instruct = new Intent(this, Instructions.class);
+        startActivity(instruct);
     }
 }

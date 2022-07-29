@@ -67,7 +67,7 @@ public class GeneralKnowledgeQ3 extends AppCompatActivity {
         final TextView textView = new TextView(this);
 
         textView.setLayoutParams(linearLayoutParams);
-        textView.setBackground(this.getResources().getDrawable(R.drawable.backgroundquestions));
+        textView.setBackground(this.getResources().getDrawable(R.drawable.backgroundq));
         textView.setTextColor(this.getResources().getColor(R.color.black));
         textView.setGravity(Gravity.CENTER);
         textView.setText(text);
@@ -113,7 +113,7 @@ public class GeneralKnowledgeQ3 extends AppCompatActivity {
         if(editText.getText().toString().equals(textAnswer)) {
             Toast.makeText(GeneralKnowledgeQ3.this, "Tama! Ang sagot ay 24 na bulkan!", Toast.LENGTH_LONG).show();
 
-            Intent c1 = new Intent(GeneralKnowledgeQ3.this, Categories.class);
+            Intent c1 = new Intent(GeneralKnowledgeQ3.this, TriviaforArts3.class);
             startActivity(c1);
 
         } else {

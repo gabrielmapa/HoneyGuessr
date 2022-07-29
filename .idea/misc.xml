@@ -3,17 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Alfonso Mapa/AndroidStudioProjects/HoneyGuessrFirst/app/src/main/res/drawable-v24/instructionsbg.xml" value="0.12" />
         <entry key="..\:/Users/Alfonso Mapa/AndroidStudioProjects/HoneyGuessrFirst/app/src/main/res/drawable-v24/start_button.xml" value="0.1135" />
         <entry key="..\:/Users/Alfonso Mapa/AndroidStudioProjects/HoneyGuessrFirst/app/src/main/res/drawable/background_1.xml" value="0.1135" />
         <entry key="..\:/Users/Alfonso Mapa/AndroidStudioProjects/HoneyGuessrFirst/app/src/main/res/drawable/gradient_list.xml" value="0.1135" />
         <entry key="..\:/Users/Alfonso Mapa/AndroidStudioProjects/HoneyGuessrFirst/app/src/main/res/drawable/splashscreen.xml" value="0.1" />
         <entry key="..\:/Users/Alfonso Mapa/AndroidStudioProjects/HoneyGuessrFirst/app/src/main/res/drawable/start_button.xml" value="0.1135" />
         <entry key="..\:/Users/Alfonso Mapa/AndroidStudioProjects/HoneyGuessrFirst/app/src/main/res/drawable/text_background.xml" value="0.1135" />
+        <entry key="..\:/Users/Alfonso Mapa/AndroidStudioProjects/HoneyGuessrFirst/app/src/main/res/layout/activity_about_btn.xml" value="0.18840579710144928" />
         <entry key="..\:/Users/Alfonso Mapa/AndroidStudioProjects/HoneyGuessrFirst/app/src/main/res/layout/activity_arts_q2.xml" value="0.18840579710144928" />
         <entry key="..\:/Users/Alfonso Mapa/AndroidStudioProjects/HoneyGuessrFirst/app/src/main/res/layout/activity_categories.xml" value="0.25" />
-        <entry key="..\:/Users/Alfonso Mapa/AndroidStudioProjects/HoneyGuessrFirst/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/Alfonso Mapa/AndroidStudioProjects/HoneyGuessrFirst/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/Alfonso Mapa/AndroidStudioProjects/HoneyGuessrFirst/app/src/main/res/layout/activity_question1_trial.xml" value="0.18840579710144928" />
         <entry key="..\:/Users/Alfonso Mapa/AndroidStudioProjects/HoneyGuessrFirst/app/src/main/res/layout/activity_question_number1.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Alfonso Mapa/AndroidStudioProjects/HoneyGuessrFirst/app/src/main/res/layout/activity_trivia_trial.xml" value="0.18840579710144928" />
+        <entry key="..\:/Users/Alfonso Mapa/AndroidStudioProjects/HoneyGuessrFirst/app/src/main/res/layout/activity_triviafor_arts.xml" value="0.1926489226869455" />
+        <entry key="..\:/Users/Alfonso Mapa/AndroidStudioProjects/HoneyGuessrFirst/app/src/main/res/layout/activity_triviafor_arts2.xml" value="0.18840579710144928" />
+        <entry key="..\:/Users/Alfonso Mapa/AndroidStudioProjects/HoneyGuessrFirst/app/src/main/res/layout/activity_triviafor_arts3.xml" value="0.18840579710144928" />
         <entry key="..\:/Users/Alfonso Mapa/AndroidStudioProjects/HoneyGuessrFirst/app/src/main/res/layout/artsq1.xml" value="0.18840579710144928" />
         <entry key="..\:/Users/Alfonso Mapa/AndroidStudioProjects/HoneyGuessrFirst/app/src/main/res/layout/artsq2.xml" value="0.18840579710144928" />
         <entry key="..\:/Users/Alfonso Mapa/AndroidStudioProjects/HoneyGuessrFirst/app/src/main/res/layout/artsq3.xml" value="0.18840579710144928" />

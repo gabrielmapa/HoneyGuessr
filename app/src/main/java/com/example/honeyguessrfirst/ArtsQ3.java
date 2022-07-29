@@ -68,7 +68,7 @@ public class ArtsQ3 extends AppCompatActivity {
         final TextView textView = new TextView(this);
 
         textView.setLayoutParams(linearLayoutParams);
-        textView.setBackground(this.getResources().getDrawable(R.drawable.backgroundquestions));
+        textView.setBackground(this.getResources().getDrawable(R.drawable.backgroundq));
         textView.setTextColor(this.getResources().getColor(R.color.black));
         textView.setGravity(Gravity.CENTER);
         textView.setText(text);
@@ -115,7 +115,7 @@ public class ArtsQ3 extends AppCompatActivity {
             Toast.makeText(ArtsQ3.this, "Tama! Ang sagot ay Bacolod!", Toast.LENGTH_LONG).show();
             editText.setText("");
 
-            Intent a3 = new Intent(ArtsQ3.this, Categories.class);
+            Intent a3 = new Intent(ArtsQ3.this, TriviaforArts.class);
             startActivity(a3);
 
         } else {
