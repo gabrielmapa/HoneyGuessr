@@ -27,7 +27,7 @@ import java.util.ArrayList;
 public class ServerRequests {
     ProgressDialog progressDialog;
     public static final int CONNECTION_TIMEOUT = 1000 * 15;
-    public static final String SERVER_ADDRESS = "http://tonikamitv.hostei.com/";
+    public static final String SERVER_ADDRESS = "https://cushitic-dozen.000webhostapp.com/";
 
     public ServerRequests(Context context) {
         progressDialog = new ProgressDialog(context);
@@ -47,10 +47,6 @@ public class ServerRequests {
         new fetchUserDataAsyncTask(user, userCallBack).execute();
     }
 
-    /**
-     * parameter sent to task upon execution progress published during
-     * background computation result of the background computation
-     */
 
     public class StoreUserDataAsyncTask extends AsyncTask<Void, Void, Void> {
         User user;
@@ -67,7 +63,6 @@ public class ServerRequests {
             dataToSend.add(new BasicNameValuePair("name", user.name));
             dataToSend.add(new BasicNameValuePair("username", user.username));
             dataToSend.add(new BasicNameValuePair("password", user.password));
-            dataToSend.add(new BasicNameValuePair("age", user.age + ""));
 
             HttpParams httpRequestParams = getHttpRequestParams();
 
@@ -143,8 +138,7 @@ public class ServerRequests {
                     String name = jObject.getString("name");
                     int age = jObject.getInt("age");
 
-                    returnedUser = new User(name, age, user.username,
-                            user.password);
+                    returnedUser = new User(name, user.username,user.password);
                 }
 
             } catch (Exception e) {
