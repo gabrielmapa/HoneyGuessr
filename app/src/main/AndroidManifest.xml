@@ -10,11 +10,39 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-
+        <activity
+            android:name=".GeneralKnowledgeQ3"
+            android:exported="false" />
+        <activity
+            android:name=".GeneralKnowledgeQ2"
+            android:exported="false" />
+        <activity
+            android:name=".GeneralKnowledgeQ1"
+            android:exported="false" />
+        <activity
+            android:name=".HistoryQ3"
+            android:exported="false" />
+        <activity
+            android:name=".HistoryQ2"
+            android:exported="false" />
+        <activity
+            android:name=".HistoryQ1"
+            android:exported="false" />
+        <activity
+            android:name=".ArtsQ3"
+            android:exported="false" />
+        <activity
+            android:name=".ArtsQ2"
+            android:exported="false" />
+        <activity
+            android:name=".ArtsQ1"
+            android:exported="false" />
+        <activity
+            android:name=".Categories"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true"/>
-
+            android:exported="true" />
         <activity
             android:name=".SplashScreen"
             android:exported="true"
