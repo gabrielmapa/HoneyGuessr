@@ -11,7 +11,9 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 
 import java.util.Objects;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener{
+
+    Button settingsButton;
 
     public Button startBtn;
     @Override
@@ -26,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         animationDrawable.setExitFadeDuration(2000);
         animationDrawable.start();
 
+<<<<<<< Updated upstream
         startBtn = (Button) findViewById(R.id.start_button);
         startBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -37,5 +40,24 @@ public class MainActivity extends AppCompatActivity {
     public void openCategories() {
         Intent intent = new Intent(this, Categories.class);
         startActivity(intent);
+=======
+        settingsButton = (Button) findViewById(R.id.settings_button);
+
+        settingsButton.setOnClickListener(this);
+
+
+    }
+
+    @Override
+    public void onClick(View view) {
+        switch(view.getId()){
+            case R.id.settings_button:
+                startActivity(new Intent(this,Settings.class));
+                break;
+
+        }
+
+
+>>>>>>> Stashed changes
     }
 }
