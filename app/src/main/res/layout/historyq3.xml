@@ -34,7 +34,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:lineSpacingExtra="6dp"
-            android:text="Sino ang pinakaunang atleta na nanalo ng olypic medal sa wordl olympics?"
+            android:text="Sino ang pinakaunang atleta na nanalo ng olympic medal sa world olympics?"
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="24dp"

@@ -28,7 +28,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="40dp"
-                android:text="KADAGDAGANG KAALAMAN"
+                android:text="KARAGDAGANG KAALAMAN"
                 android:textColor="@color/black"
                 android:textStyle="bold"
                 android:textSize="22dp" />
@@ -109,7 +109,7 @@
                     android:layout_gravity="center"
                     android:layout_marginTop="30dp"
                     android:lineSpacingExtra="6dp"
-                    android:text="Dalawang-daan ang bulkan na matatagpuan sa Pilipinas at ang dalawampu’t apat sa mga ito ay aktibo. Matatawag na aktibo ang isang bulkan kung ito ay sumabog sa loob ng huling 10, 000 na taon kagaya ng Mt. Mayon, Mt. Bulusan, Mt. Hibok-hibok, Mt. Didicas, Mt. Pinatubo, Mt. Mayon at marami pang iba."
+                    android:text="Dalawang-daan ang bulkan na matatagpuan sa Pilipinas at ang dalawampu’t apat sa mga ito ay aktibo. Matatawag na aktibo ang isang bulkan kung ito ay sumabog sa loob ng huling 10, 000 na taon kagaya ng Mt. Mayon, Mt. Bulusan, Mt. Hibok-hibok, Mt. Didicas, Mt. Pinatubo at marami pang iba."
                     android:textAlignment="center"
                     android:textColor="#000000"
                     android:textSize="20dp"
